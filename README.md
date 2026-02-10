@@ -116,3 +116,11 @@ This implementation is created **for educational and learning purposes only.**
 It does **not provide real-world cryptographic security** and must not be used in production systems or for protecting sensitive data.
 
 ---
+
+## 🪪 Author
+
+> **Shakal Bhau**
+
+> GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)
+
+---
